@@ -7,7 +7,7 @@ function cargarContenido() {
   var xhr = new XMLHttpRequest();
 
   // abrirlo
-   xhr.open("GET", "texto_prueba.txt", true);
+   xhr.open("GET", "https://github.com/gilvalencia/lab01_DAR/blob/main/js/texto_prueba.txt", true);
    
    // revisar que cambie
    xhr.onreadystatechange = function() {
