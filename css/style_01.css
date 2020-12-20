@@ -1,0 +1,223 @@
+
+
+
+body { font: 13px Gotham;  background-color: #f3f3f3}
+h2 { margin-bottom: 0; font-size: 1.2em; }
+
+.button {
+		background-color: #6fc0de;
+		border: 0;
+		color: white;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+
+.button2 {
+		background-color: #d0e5ec;
+		border: 5;
+		color: #6fc0de;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+
+.button3 {
+		background-color: #d0e5ec;
+		border: 5;
+		color: #4ca3c3;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 15px;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+
+.buttonArchivo {
+		background-color: #d0e5ec;
+		border: 0;
+		color: #4ca3c3;
+		padding: 8px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 10px;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+
+#alumno{
+	color: black;
+}
+
+#ejercicios tr{
+	background-color: #FFFFFF;
+}
+
+#base th{
+	background-color: #6fc0de;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 13px;
+	text-align: center;
+	color: white;
+}
+
+#base td{
+	background-color: #ffffff;
+	color: #6fc0de;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#ejercicio01index th{
+	background-color: #6fc0de;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 13px;
+	text-align: center;
+	color: white;
+}
+
+#ejercicio01index td{
+	background-color: #ffffff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#nombreEjercicios {
+	background-color: #6fc0de;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	padding-right: 1200px;
+}
+
+#nombreEjercicios2 {
+	background-color: #6fc0de;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	padding-right: 1250px;
+}
+
+#contenidoEjercicios th{
+	background-color: #ffffff;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 384px;
+}
+
+#contenidoEjercicios th columnaEjercicios{
+	background-color: #ffffff;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 384px;
+}
+
+
+#contenidoEjercicios td{
+	background-color: #ffffff;
+	color: #6fc0de;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: auto;
+}
+
+#contenidoEjercicios2 td{
+	background-color: #ffffff;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: auto;
+}
+
+#titulo_nombre, #final{text-align: center}
+
+#recurso, #enviar { padding: .3em }
+
+#eje01 td {
+	background-color: #d0e5ec;
+	color: #4ca3c3;
+	padding-left: 10px;
+	padding-right: 1095px;
+}
+
+#eje02 td{
+	background-color: #d0e5ec;
+	color: #4ca3c3;
+	padding-left: 10px;
+	padding-right: 1200px;
+}
+
+#eje03 td{
+	background-color: #d0e5ec;
+	color: #4ca3c3;
+	padding-left: 10px;
+	padding-right: 165px;
+}
+
+#contenidos {
+    width: 1460px;
+	height: 300px;
+    overflow: scroll;
+	border: 2px solid #CCC;
+    background: #ffffff;
+	padding: 1em;
+    white-space: pre;
+}
+
+#estados, #cabeceras, #codigo {
+	border: 2px solid #CCC;
+    background: #ffffff;
+
+	overflow: scroll;
+    white-space: pre;
+	padding-left: 10px;
+	padding-right: 165px;
+}
+
+#estados{
+	width: 272px;
+	height: 180px;
+}
+#cabeceras{
+	width: 443px;
+	height: 180px;
+}
+#codigo{
+	width: 240px;
+	height: 180px;
+}
+
+
+
+
