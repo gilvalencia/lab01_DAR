@@ -1,7 +1,10 @@
 
+@font-face {
+      font-family: "jose";
+      src: url("https://github.com/gilvalencia/lab01_DAR/blob/main/font/HomepageBaukasten-Book.ttf");
+    }
 
-
-body { font: 13px Gotham;  background-color: #f3f3f3}
+body { font-family: "jose"; font: 13px;  background-color: #f3f3f3}
 h2 { margin-bottom: 0; font-size: 1.2em; }
 
 .button {
