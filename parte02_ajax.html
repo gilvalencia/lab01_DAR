@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>LABORATORIO 01_DAR_Ejercicio 02 - Estados de la petición AJAX</title>
+  <link rel="stylesheet" href="css/style_01.css">
+  <script type="text/javascript" src="js/code02.js"></script>  
+</head>
+
+<body>
+	
+	<center><img src="images/unir2.png"></center>
+	<br>
+	
+	<center><table id="base">
+		<tr>
+			<th><h3>LABORATORIO 01</h3></th>
+		</tr>
+		<tr>
+			<td>
+				<h3>GRADO EN INGENIERÍA INFORMÁTICA<br>Desarrollo de Aplicaciones en Red</h3>
+				<h3 id="alumno"><u>Alumno</u>: José Antonio Gil Valencia</h3>
+				<center><h1><a href="archive/documento_lab01.pdf" class="buttonArchivo">gii37t4lab_LAB01_Tecnologías AJAX_GIL VALENCIA_JOSÉ ANTONIO_08862804F</a></h1></center>
+			</td>
+		</tr>
+	</table></center>
+
+	<div id="titulo_nombre">
+		<h4><a href="parte01_javascript.html" class="button2">Ejercicios JAVASCRIPT</a><a href="index.html" class="button2">Volver a ÍNDICE</a></h4>
+	</div>
+	
+	<table id="nombreEjercicios2">
+		<tr>
+			<th><h2><b>PARTE 02: EJERCICIOS AJAX.</u></b></h2></th>
+		</tr>
+	</table>
+
+	<table id="contenidoEjercicios2">
+		<tr>
+			<td>
+				<ol>
+					<li>Al cargar la página, el cuadro de texto debe mostrar por defecto la URL de la propia página.</li>
+					<br>
+					<li>Al pulsar el botón "Mostrar Contenidos", se debe descargar mediante peticiones AJAX el contenido 
+					correspondiente a la URL introducida por el usuario. El contenido de la respuesta recibida del servidor 
+					se debe mostrar en la zona de "Contenidos del archivo".</li>
+					<br>
+					<li>En la zona "Estados de la petición" se debe mostrar en todo momento el estado en el que se encuentra 
+					la petición (No inicializada, cargando, completada, etc.).</li>
+					<br>
+					<li>Mostrar el contenido de todas las cabeceras de la respuesta del servidor en la zona "Cabeceras HTTP de 
+					la respuesta del servidor".</li>
+					<br>
+					<li>Mostrar el código y texto de estado de la respuesta del servidor en la zona "Código de estado".</li>
+				</ol>
+			</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<table id="eje01">
+		<tr>
+			<td><h3><b>Ejercicio 01: URL, por defecto, de la propia página.</b></h3></td>
+		</tr>
+	</table>
+	
+	<table id="contenidoEje01">
+		<tr>
+			<td>
+				<form action="#">
+					<b>URL:</b>
+					<input type="text" id="recurso" size="80"/>
+					<input type="button" class="button" id="cargarContenido" value="Mostrar contenidos" />
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<table id="eje02">
+		<tr>
+			<td><h3><b>Ejercicio 02: Contenidos del Archivo.</b></h3></td>
+		</tr>
+	</table>
+	
+	<table>
+		<tr>
+			<td>
+				<div id="contenidos"></div>
+			</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<table id="eje03">
+		<tr>
+			<td id="encabezados"><h3><b>Ejercicio 03: Estados de la petición.</b></h3></td>
+			<td id="encabezados"><h3><b>Ejercicio 04: Cabeceras HTTP de la respuesta del servidor.</b></h3></td>
+			<td id="encabezados"><h3><b>Ejercicio 05: Código de Estado.</b></h3></td>
+		</tr>
+	</table>
+	
+	<table>
+		<tr>
+			<td>
+				<div id="estados"></div>
+			</td>
+			<td>
+				<div id="cabeceras"></div>
+			</td>
+			<td>
+				<div id="codigo"></div>
+			</td>
+		</tr>
+	</table>
+	
+	<br><br>
+	
+	<center><div id="final">
+		<img src="images/unir.png">
+		<p>Proyecto realizado para la ejecución de los ejercicios JAVASCRIPT y AJAX <br> propuestos para el Laboratorio 01 <br> de la Asignatura "Desarrollo de Aplicaciones en Red".</p>
+		<p><b>Curso 2020-2021</b></p>
+		<br>
+	</div></center>
+	
+</body>
+</html>
