@@ -1,6 +1,9 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/HomepageBaukasten-Book.woff);
+}
 
-
-body { font-family: Gotham; font: 13px;  background-color: #f3f3f3}
+body { font-family: myFirstFont; font: 13px;  background-color: #f3f3f3}
 h2 { margin-bottom: 0; font-size: 1.2em; }
 
 .button {
