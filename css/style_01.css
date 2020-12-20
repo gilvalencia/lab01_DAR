@@ -1,9 +1,5 @@
-@font-face {
-    font-family: jose;
-    src: url("../lab01_DAR/Gotham Medium.otf") format('truetype');
-}
 
-body { font-family: jose; font: 13px;  background-color: #f3f3f3}
+body { font-family: Arial; font: 13px;  background-color: #f3f3f3}
 h2 { margin-bottom: 0; font-size: 1.2em; }
 
 .button {
